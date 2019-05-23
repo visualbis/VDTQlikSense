@@ -1,0 +1,8 @@
+{
+	"name" : "QlikValQ",
+	"description" : "QlikValQ",
+	"icon" : "bar-chart-vertical",
+	"type" : "visualization",
+	"version": "0.1",
+	"author": "Qlik"
+}
