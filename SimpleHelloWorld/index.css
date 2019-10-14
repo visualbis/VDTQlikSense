@@ -1,0 +1,76 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+.root {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-div {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    width: 300px;
+    left: 0px;
+    border: 1px solid #ccc;
+}
+
+.vdt-div {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    left: 300px;
+    right: 0px;
+    border: 1px solid #ccc;
+}
+
+.editor-div{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: #0a0a0ab0;
+}
+
+.editor-icon{
+    cursor: pointer;
+    top: 4px !important;
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    right: 10px;
+    z-index: 9999;
+    border-radius: 50%;
+    background-color: #f2c811;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.editor-icon:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.14), 0 6px 20px 0 rgba(251, 251, 251, 0.89);
+}
+.editor-icon img{
+    border-style: none;
+    width: 17px;
+    position: relative;
+    top: 11px;
+    left: 11px;
+}
+
+.hide{
+    display:none !important;
+}
+
+.close-icon{
+    display: none;
+}
+
+.editor-open .close-icon{
+    display: block !important;
+}
+
+.editor-open .edit-icon{
+    display: none !important;
+}
